@@ -18,8 +18,8 @@ let package = Package(
             name: "RemotePackage"),
         .binaryTarget(
             name: "StaticFramework",
-            url: "https://raw.githubusercontent.com/pforstman/FrameworkProject/Release/1/0/0/StaticFramework.xcframework.zip",
-            checksum: "fb02b816f43c0324ecef53bc7236fe323d95c20af006434e8f407b69650155e9"
+            url: "https://raw.githubusercontent.com/pforstman/FrameworkProject/Release/1/0/2/StaticFramework.xcframework.zip",
+            checksum: "536d8ac8b4098e21702ebe9d2e62cf7151f6ad109d5ddec28a049895d88a60aa"
         ),
         .testTarget(
             name: "RemotePackageTests",
